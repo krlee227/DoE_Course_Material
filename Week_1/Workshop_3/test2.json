@@ -1,0 +1,29 @@
+{"working dictionary": "표준위 심의안 (230210) 이후 working",
+  "!!": "suggestion",
+  "**": "K-MDS 기등록 어휘 반영",
+  "??": "need to check",
+  "metadata vocabulary": {
+    "data name": {
+      "eng_definition": "name of the data set, named by data provider",
+      "var_name": "DataName",
+      "data_type": "string",
+      "data_example": "Zinc coated Fe-6Mn-3Al steel plate; Ti/Al dissimilar welded joint; Fe/C catalyst; Gd doped MOF 370; LLZO (Li7La3Zr2O12) Solid Electrolyte"
+    },
+    "!! material system": {
+      "eng_definition": "selected materials system of the data",
+      "var_name": "MaterialSystem",
+      "alias": "",
+      "data_type": "string ",
+      "data_example": [
+        "no system",
+        "catalyst",
+        "porous_materials",
+        "memristive",
+        "photodetector",
+        "gas_sensor",
+        "alkali_ion_battery",
+        "piezoelectric"
+      ]
+    },
+  }
+}
