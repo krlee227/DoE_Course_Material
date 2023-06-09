@@ -1,0 +1,81 @@
+{
+  "metadata vocabulary": {
+    "data name": {
+      "eng_definition": "name of the data set, named by data provider",
+      "var_name": "DataName",
+      "data_type": "string",
+      "data_example": "Zinc coated Fe-6Mn-3Al steel plate; Ti/Al dissimilar welded joint; Fe/C catalyst; Gd doped MOF 370; LLZO (Li7La3Zr2O12) Solid Electrolyte"
+    },
+    "contributor": {
+      "eng_definition": "researcher(s) who provide the data",
+      "var_name": "Contributor",
+      "alias": "",
+      "name": {
+        "eng_definition": "contibutor's name",
+        "var_name": "Name",
+        "data_type": "string (familyname, firstname)",
+        "data_example": "Jordan, Mike; Hong, Gil-Dong"
+      },
+      "affiliation": {
+        "eng_definition": "contibutor's affliation (insitute's name and further definition of working place)",
+        "var_name": "Affiliation",
+        "data_type": "string (free form)",
+        "data_example": "Advanced Materials Research Center, KIST; Department of Energy, KAIST; Metallurgy Division, KIMS"
+      },
+      "email address": {
+        "eng_definition": "contributor’s email address",
+        "var_name": "EmailAddress",
+        "data_type": "string",
+        "data_example": "hayoonlee@kriss.re.kr"
+      },
+      "researcher number": {
+        "eng_definition": "contributor’s researcher number ID in Integrated R&D Information System of Korea (https://iris.go.kr)",
+        "var_name": "ResearcherNumberID",
+        "data_type": "string",
+        "data_example": "12981649"
+      }
+    },
+    "data generation date": {
+      "eng_definition": "date when the data is added to the present database or data lake",
+      "var_name": "DataGenerationDate",
+      "alias": "",
+      "data_type": "string (Year-Month-date)",
+      "data_example": "2021-05-24; 2008-03-01"
+    },
+    "keywords": {
+      "eng_definition": "material type or definition, keywords representing the data set",
+      "var_name": "Keywords",
+      "data_type": "string",
+      "data_example": "experimental; computational; Li ion battery; carbon nanotube; composite; Al base"
+    }
+  },
+  "materials vocabulary": {
+    "material_(n)": {
+      "eng_definition": "materials that can be a component of materials system",
+      "var_name": "Material_(n)",
+      "alias": "",
+      "name": {
+        "eng_definition": "name of materials according to customary usage, designation system, composition, etc.",
+        "var_name": "Name",
+        "alias": "",
+        "data_type": "string",
+        "data_example": "annealed INCONEL625 plate; Al7075-T6; Al10Si5Mg; Fe; CNT; TiO2; Ag; In2O2; LLZO"
+      },
+      "chemical information": {
+        "eng_definition": "atomic scale information of materials",
+        "var_name": "ChemicalInfo",
+        "alias": "",
+        "crystallography": {
+          "eng_definitionn": "crystallographic data of the material",
+          "var_name": "Crystallography",
+          "Bravais lattice": {
+            "eng_definition": "Name of 14 Bravais lattice",
+            "var_name": "BravaisLattice",
+            "data_type": "string",
+            "data_example": "simple cubic; bodycentered cubit; face centered cubic; primitice hexagonal; primitive rhombohedral; R-centered hexagonal; primitive tetragonal; body cenered tetragonal;  primitive orthorhombic; base centered orthorombic; body centered orthorombic; face centered orthorombic; primitive moniclinic; base center monoclinic; primitive triclinic"
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "metadata vocabulary": {
+    "data name": {
+      "eng_definition": "name of the data set, named by data provider",
+      "var_name": "DataName",
+      "data_type": "string",
+      "data_example": "Zinc coated Fe-6Mn-3Al steel plate; Ti/Al dissimilar welded joint; Fe/C catalyst; Gd doped MOF 370; LLZO (Li7La3Zr2O12) Solid Electrolyte"
+    },
+    "data generation date": {
+      "eng_definition": "date when the data is added to the present database or data lake",
+      "var_name": "DataGenerationDate",
+      "alias": "",
+      "data_type": "string (Year-Month-date)",
+      "data_example": "2021-05-24; 2008-03-01"
+    },
+    "keywords": {
+      "eng_definition": "material type or definition, keywords representing the data set",
+      "var_name": "Keywords",
+      "data_type": "string",
+      "data_example": "experimental; computational; Li ion battery; carbon nanotube; composite; Al base"
+    }
+  }
+}
